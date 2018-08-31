@@ -15,4 +15,7 @@ const recordSchema = new mongoose.Schema({
     totalHour: Number,
 
 })
+const RecordModel = mongoose.model('RecordModel', recordSchema);
+
+exports.RecordModel = RecordModel;
 
